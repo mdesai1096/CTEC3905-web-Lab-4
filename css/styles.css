@@ -5,6 +5,7 @@
 
 body {
   background: #fcc;
+  margin: 0;
 }
 
 nav {
@@ -25,7 +26,7 @@ background: #797;
 }
 
 .menu{
-  background-color: #000000;
+  background-color: #000050;
   color: #F0FFFF;
   line-height: 2em ;
 }
