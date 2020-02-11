@@ -7,7 +7,28 @@ body {
   background: #fcc;
 }
 
+nav {
+display: flex;
+justify-content: center;
+background: #333;
+}
+nav a {
+padding: 1.25em 1.5em;
+color: #ccc;
+background: #555;
+text-decoration: none;
+transition: all 1.5s;
+}
+nav a:hover {
+color: #dfd;
+background: #797;
+}
 
+.menu{
+  background-color: #000000;
+  color: #F0FFFF;
+  line-height: 2em ;
+}
 
 /* TABLET STYLES */
 
@@ -19,22 +40,7 @@ body {
     background: #cfc;
   }
 
-  nav {
-  display: flex;
-  justify-content: center;
-  background: #333;
-}
-nav a {
-  padding: 1.25em 1.5em;
-  color: #ccc;
-  background: #555;
-  text-decoration: none;
-  transition: all 1.5s;
-}
-nav a:hover {
-  color: #dfd;
-  background: #797;
-}
+
 
 }
 
