@@ -32,12 +32,17 @@ background: #797;
   color: #F0FFFF;
 
 }
-.menu:hover + nav,
+
+.menu-toggle{
+  display: flex;
+}
+
+/*.menu:hover + nav,
 nav:hover{
   line-height: 2em ;
   display: flex;
 
-}
+}*/
 
 /* TABLET STYLES */
 
